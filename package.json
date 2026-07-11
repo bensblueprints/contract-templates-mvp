@@ -1,0 +1,40 @@
+{
+  "name": "contractly",
+  "productName": "Contractly",
+  "version": "1.0.0",
+  "description": "Contractly — a local contract template library with fill-in-the-blanks variables, rich-text clause editing, and clean PDF export. Pay once, own it forever. Not legal advice.",
+  "main": "main.js",
+  "author": "Ben (bensblueprints)",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/smoke.js",
+    "dist": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^33.4.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.bensblueprints.contractly",
+    "productName": "Contractly",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "lib/**/*",
+      "renderer/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "menuCategory": "OneTimeSuite"
+    }
+  }
+}
