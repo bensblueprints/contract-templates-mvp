@@ -67,3 +67,7 @@ Honest positioning: for a funding round or anything high-stakes, pay the lawyer.
 ## License
 
 MIT © 2026 Ben (bensblueprints) — the software. Template texts are provided as-is, without warranty, and are not legal advice.
+
+## macOS build
+
+See [MAC-BUILD.md](MAC-BUILD.md). Quickest path: GitHub **Actions** tab -> run the **Mac Build** (`mac-build.yml`) workflow to get a downloadable `.dmg` (unsigned - right-click -> Open on first launch).
