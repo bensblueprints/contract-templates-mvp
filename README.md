@@ -14,7 +14,7 @@ PandaDoc gates template features behind **$19+/user/month**. A lawyer charges pe
 
 Don't want to touch a terminal? Grab the packaged Windows installer (and support development):
 
-**→ [Get Contractly on Whop](https://whop.com/onetime-suite)** — pay once, own it forever.
+**→ [Get Contractly on Whop](https://whop.com/benjisaiempire/contractly)** — pay once, own it forever.
 
 ## Features
 
