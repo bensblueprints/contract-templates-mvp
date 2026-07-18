@@ -1,5 +1,9 @@
 # ⚖️ Contractly
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **The contract template library you buy once and own forever.** 16 plain-language templates — NDAs, freelance agreements, service contracts, SOWs, releases — with fill-in-the-blanks variables, a rich-text clause editor, live preview, and clean PDF export. 100% local, zero subscription.
